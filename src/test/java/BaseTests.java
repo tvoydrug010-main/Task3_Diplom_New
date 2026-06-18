@@ -32,7 +32,6 @@ public class BaseTests {
             options.setBinary("C:\\Program Files\\Yandex\\YandexBrowser\\Application\\browser.exe");
             WebDriverManager.chromedriver().browserVersion("146").setup();
         } else {
-            options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
             WebDriverManager.chromedriver().browserVersion("148").setup();
         }
 

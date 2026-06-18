@@ -85,7 +85,7 @@ public class HomePageTests extends BaseTests {
     public void tearDown(TestInfo testInfo){
         boolean skipRegistration = testInfo.getTags().contains("noRegistration");
         if (!skipRegistration) {
-            user.deleteUser();;
+            user.deleteUser();
         }
     }
 

@@ -1,4 +1,3 @@
-import net.datafaker.Faker;
 import org.example.pages.apiClient.CreateUser;
 import org.example.pages.factory.UserFactory;
 import org.example.pages.models.User;
